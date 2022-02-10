@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ad30e23-855d-49d0-b932-ab2fe21d019f" name="Default Changelist" comment="feat: .gitignore added">
+    <list default="true" id="4ad30e23-855d-49d0-b932-ab2fe21d019f" name="Default Changelist" comment="feat: gradle summary">
+      <change afterPath="$PROJECT_DIR$/agile/scrum/refinement.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agile/scrum/workflow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agile/user_story_mapping.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/engineering/architecture.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/engineering/black_box_test.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/engineering/engineering.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/engineering/quality_control.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/ssr_vs_spa/ssr_vs_spa.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_management/multi_tenant.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vulnerability/dast.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w3c/css_framework.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/Cloud_Computing_is.md" beforeDir="false" afterPath="$PROJECT_DIR$/aws/cloud_computing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic/SSR_vs_SPA/SSR_vs_SPA.md" beforeDir="false" afterPath="$PROJECT_DIR$/agile/lean.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DX/Code_Style/code_style.md" beforeDir="false" afterPath="$PROJECT_DIR$/dx/Code_Style/code_style.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DX/DX_is.md" beforeDir="false" afterPath="$PROJECT_DIR$/dx/dx_is.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DX/assets/DX.png" beforeDir="false" afterPath="$PROJECT_DIR$/dx/assets/DX.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_Management/gradle_is.md" beforeDir="false" afterPath="$PROJECT_DIR$/project_management/gradle_is.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +37,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1u52xJDKSmbTJk1GCmTbiUCCEXJ" />
   <component name="ProjectLevelVcsManager">
@@ -42,6 +63,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Basic/DX/assets" />
       <recent name="$PROJECT_DIR$/Basic/DX" />
@@ -71,6 +93,9 @@
       <workItem from="1623941375716" duration="3039000" />
       <workItem from="1624091936123" duration="10235000" />
       <workItem from="1624693275648" duration="619000" />
+      <workItem from="1643868040202" duration="869000" />
+      <workItem from="1643966680791" duration="3000" />
+      <workItem from="1644050356837" duration="47455000" />
     </task>
     <task id="LOCAL-00001" summary="feat : Cloud Computing summary">
       <created>1623944631365</created>
@@ -116,7 +141,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
