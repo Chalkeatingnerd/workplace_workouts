@@ -64,8 +64,21 @@ Source Application : データ送信、ターゲットアプリ : データ受�
 * Point to Pointの方法はメッセージを受信した人がキューから取り出して読む方法だが、
   Pub/Sub方式はトピックから引き出すのではなく、トピックからBroadCastされる方式。 ユーザーにメッセージが通知される概念
 
+#### Kafka方式の長所
+
+* Kafkaにだけデータを転送したら必要なとこで各自受け取れる
+* Kafkaが提供してる標準フォーマットに繋がってデータを送受信負担が減る
 
 
+### Kafkaの要素
 
+![kafka_flow](./assets/kafka_flow.png)
 
+* `Topic` : キューのようなもの、kafkaの中にtopicがある。つまりProducerとConsumerがKafkaに送った自分のメッセージを区分するための名前。<br> 
+  多数のProducerとConsumerが同じKafkaを使うとメッセージが混ぜられるため、Topicで区分する
 
+* `Producer` : キューにデータを入れる<br>
+  メッセージを生成してブローカーのTopic名に送るサーバー及びアプリ
+	
+* `Consumer` : キューからデータを引き出す<br>
+  ブローカーのTopic名で保存されたメッセージを引き出すサーバー及びアプリ
