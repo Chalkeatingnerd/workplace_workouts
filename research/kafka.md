@@ -67,7 +67,7 @@ Source Application : データ送信、Target Application : データ受ける �
 #### Kafka方式の長所
 
 * Kafkaにだけデータを転送したら必要なとこで各自受け取れる
-* Kafkaが提供してる標準フォーマットに繋がってデータを送受信負担が減る
+* Kafkaが提供してる標準フォーマットに連結されてデータを送受信負担が減る
 
 
 ### Kafkaの要素
